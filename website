@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AimforStar Private Jets</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen">
+  <!-- Header -->
+  <header class="text-center py-8 bg-black">
+    <img src="Screenshot 2025-04-30 120130.png" alt="AimforStar Logo" class="mx-auto w-64">
+    <h1 class="text-3xl font-bold mt-4">Private Jet Charter Services</h1>
+    <p class="text-gray-300 italic">"Aim For Better"</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow px-4 md:px-16 py-10">
+    <section class="text-center mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Fly Smarter. Fly in Style.</h2>
+      <p class="text-gray-300 max-w-2xl mx-auto">
+        AimforStar offers premium private jet charter services, ensuring your journey is not just transportation—it's a tailored luxury experience. Whether you're flying for business or leisure, our modern fleet and elite service guarantee safety, efficiency, and comfort.
+      </p>
+    </section>
+
+    <section class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">On-Demand Charters</h3>
+        <p class="text-gray-400">Flexible jet bookings anywhere in the world. No memberships required.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Luxury Experience</h3>
+        <p class="text-gray-400">Top-tier interiors, gourmet catering, and elite hospitality onboard every flight.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Safety First</h3>
+        <p class="text-gray-400">Certified pilots, rigorous maintenance, and 24/7 flight operations monitoring.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Call to Action -->
+  <section class="bg-white text-black text-center py-12">
+    <h2 class="text-2xl font-bold mb-4">Ready to Fly?</h2>
+    <p class="mb-6">Contact us today to book your next flight or get a custom quote.</p>
+    <a href="mailto:charter@aimforstar.com" class="bg-black text-white py-3 px-6 rounded-full hover:bg-gray-800 transition">Book Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-6 text-gray-500 text-sm">
+    &copy; 2025 AimforStar Private Jets. All rights reserved.
+  </footer>
+</body>
+</html>
